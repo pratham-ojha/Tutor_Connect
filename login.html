@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+        <div class="main">
+            <div class="bg-img"></div>
+            <div class="register">
+                <h3>Student Login</h3>
+                <form  onsubmit=" return validate()" action="#">
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email-Id" >
+                    <br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" >
+                    <br><br>
+                    <div class="submit">
+                        <input type="submit" name="submit" id="submit" >
+                    </div>
+                    <a href="#" style="font-size: 15px; color: rgb(202, 180, 180);">Forget Password?</a>
+                </form>
+            </div>
+        </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
